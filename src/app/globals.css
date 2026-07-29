@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.h-100vh {
+  height: 100vh;
+}
