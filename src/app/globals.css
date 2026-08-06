@@ -29,3 +29,47 @@ body {
 .h-100vh {
   height: 100vh;
 }
+
+.kpi-card li {
+  border: solid 1px #000;
+  border-radius: 20px;
+}
+
+.kpi-card li img {
+  width: 50px;
+}
+
+.card-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.card-list li:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-3px);
+}
+
+.card-list li button {
+  padding: 6px 14px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #333;
+  font-size: 0.9rem;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+
+.card-list li button:hover {
+  background-color: #1f2937; /* burlywood 살짝 튜닝 */
+  color: #fffbe8;
+}

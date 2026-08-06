@@ -1,3 +1,8 @@
+import { ExternalProductGrid } from "@/components/products/external-product-grid";
 export default function ExploreProductsPage() {
-  return <div></div>;
+  return (
+    <div>
+      <ExternalProductGrid />
+    </div>
+  );
 }
